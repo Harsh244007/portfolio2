@@ -15,6 +15,7 @@ const Blogs = () => {
   return
   return (
     <>
+    <h1>Blog Page click on any blog to go to particular blog.</h1>
     {errorPage?<div><h1>We are sorry there's error from our side please try again.</h1></div>:<div className='maintext'>
       {data.map((e)=>{
         return(
