@@ -4,7 +4,7 @@ import { MainContext } from '../../contexts/MainContext'
 const Projects = () => {
 const {ProjectData,Card} = useContext(MainContext)
   return (
-    <div  className='main'>
+    <div  className='mainproject'>
       {ProjectData.map((e,i)=>
       {return(
         <Card key={i} data={e}/>

@@ -42,9 +42,9 @@ const Feedback = () => {
     console.log(final)
   }
   return (
-    <div className="main">
+    <div className="mainfeedback">
       <h2>Feedback form</h2>
-      <form className="form">
+      <form className="formfeedback">
         <input ref={name} type="text" placeholder='Your Name' />
         <input ref={date} type="date" placeholder='Select date' />
         <input ref={title} type="text" placeholder='Feedback Title' />
@@ -65,7 +65,7 @@ const Feedback = () => {
         <input type="button" value="Submit" onClick={onclick} />
       </form>
       {
-        feedbackData ? <div div className="center">
+        feedbackData ? <div div className="centerfeedback">
           <h3>Data sucesssfully send</h3>
           <p>Name: {feedbackData.Name}</p>
           <p>Date : {feedbackData.Date}</p>
