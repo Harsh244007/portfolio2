@@ -47,15 +47,15 @@ TeamFive:"Sunny",
 const Card=(e)=>{
   return(
     <div key={e.id+1} className="projects">
-      <p>{e.data.Name}</p>
-      <p>{e.data.TechStack}</p>
-      <p>{e.data.Duration}</p>
-      <p>{e.data.Teamstrength}</p>
-      <p>{e.data.TeamOne}</p>
-      <p>{e.data.TeamTwo}</p>
-      <p>{e.data.TeamThree}</p>
-      <p>{e.data.TeamFour}</p>
-      <p>{e.data.TeamFive}</p>
+      <p>Project Name: {e.data.Name}</p>
+      <p>TechStack used: {e.data.TechStack}</p>
+      <p>Time taken: {e.data.Duration}</p>
+      <p>Team memebers: {e.data.Teamstrength}</p>
+      <p>Team memeber First: {e.data.TeamOne}</p>
+      <p>Team memeber Second: {e.data.TeamTwo}</p>
+      <p>Team memeber Three: {e.data.TeamThree}</p>
+      <p>Team memeber Fourth: {e.data.TeamFour}</p>
+      <p>Team memeber Fifth: {e.data.TeamFive}</p>
     </div>
   )
 }
