@@ -1,0 +1,18 @@
+.main{
+    display: grid;
+    margin:auto;
+    text-align: center;
+}
+.chkbox{
+    text-align: left;
+}
+.form{
+    display: grid;
+    width: 60%;
+    margin: auto;
+    align-items: center;
+}
+.center{
+    text-align: left;
+    margin: 1vw 20vw;
+}

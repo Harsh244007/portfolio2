@@ -1,0 +1,18 @@
+.maintext{
+display: grid;
+grid-template-columns: repeat(3,1fr);
+gap: 1vh;
+margin: 1vw 2vw;
+}
+.blogcard{
+    border: 1px solid;
+}
+.content{
+    color: inherit;
+    text-decoration: none;
+}
+.maintext2{
+display: block;
+margin: 2vw 4vw;
+padding: 2vw 4vw;
+}

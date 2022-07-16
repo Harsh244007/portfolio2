@@ -1,0 +1,11 @@
+.main{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin: 2vw 2vw;
+    padding: 0vw 2vw;
+    justify-content: space-around;
+    align-items: center;
+}
+.projects{
+    border:1px solid white;
+}

@@ -1,0 +1,9 @@
+.App {
+color: white;
+background-color: rgb(38, 37, 37);
+height: 100vh;
+overflow: auto;
+}
+html{
+  margin: 0;
+}

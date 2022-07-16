@@ -1,0 +1,13 @@
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.navbar{
+    text-decoration: none;
+    color: inherit;
+    font-size: 2vw;
+}
+.navbar:hover{
+    text-decoration: underline;
+}
