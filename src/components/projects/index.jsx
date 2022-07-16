@@ -1,5 +1,5 @@
 import React,{useContext} from 'react'
-import "./index.css"
+import "./index.project.css"
 import { MainContext } from '../../contexts/MainContext'
 const Projects = () => {
 const {ProjectData,Card} = useContext(MainContext)

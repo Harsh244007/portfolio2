@@ -1,5 +1,5 @@
 import React, { useRef, useContext, useState } from "react"
-import "./index.css"
+import "./index.feedback.css"
 import { MainContext } from '../../contexts/MainContext'
 const Feedback = () => {
   const { getall,feedbackData,setFeedbackData } = useContext(MainContext)

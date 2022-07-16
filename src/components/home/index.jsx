@@ -2,7 +2,7 @@ import React,{useContext} from 'react'
 import {Slide} from 'react-slideshow-image'
 import 'react-slideshow-image/dist/styles.css'
 import { MainContext } from '../../contexts/MainContext'
-import "./index.css"
+import "./index.home.css"
 const Home = () => {
  const {slideImages}=useContext(MainContext)
    return (

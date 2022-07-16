@@ -2,7 +2,7 @@ import React, { useContext, useEffect, useState } from 'react'
 import axios from "axios"
 import {useParams} from "react-router-dom"
 import { MainContext } from '../../contexts/MainContext'
-import "./index.css"
+import "./index.blog.css"
 const Next = () => {
     const {id}=useParams()
   const {data2,setData2,errorPage,setError,BlogCard}=useContext(MainContext)

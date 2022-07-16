@@ -1,7 +1,7 @@
 import React, { useContext, useEffect, useState } from 'react'
 import axios from "axios"
 import { MainContext } from '../../contexts/MainContext'
-import "./index.css"
+import "./index.blog.css"
 const Blogs = () => {
   const {data,setData,errorPage,setError,BlogCard}=useContext(MainContext)
   useEffect(() => {
